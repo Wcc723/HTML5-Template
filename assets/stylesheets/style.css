@@ -54,6 +54,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -61,10 +67,6 @@ body {
 html {
   font-size: 100%;
   line-height: 1.5em;
-}
-
-a {
-  text-decoration: none;
 }
 
 .clearfix {
@@ -82,8 +84,4 @@ a {
 
 .float-right {
   float: right;
-}
-
-.half {
-  width: 50%;
 }
